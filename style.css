@@ -1,8 +1,19 @@
+@charset "UTF-8";
 /*@import "./assets/styles/resets";*/
-div {
-  color: red;}
-a {
-  color: green;
-  text-decoration: none;
-  font-size: 30px;
-}/*# sourceMappingURL=style.css.map */
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+}
+header h1 {
+  font-weight: 400;
+}
+header .greenDot {
+  color: #00E3A5;
+}
+header .aboutUs {
+  font-size: 18px;
+}
+
+/* Na zadanie domowe: zobaczyć elementy wpólne jakie są na stronie (często powtarzające się) - wypisz je w komentarzu *//*# sourceMappingURL=style.css.map */

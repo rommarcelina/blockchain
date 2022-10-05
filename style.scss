@@ -1,7 +1,23 @@
 /*@import "./assets/styles/resets";*/
 
-a {
-    color: green;
-    text-decoration: none;
-    font-size: 30px;
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans";
+
+
+    h1 {
+        font-weight: 400;
+    }
+
+    .greenDot {
+        color: #00E3A5;
+    }
+
+    .aboutUs{
+        font-size: 18px;
+    }
 }
+/* Na zadanie domowe: zobaczyć elementy wpólne jakie są na stronie (często powtarzające się) - wypisz je w komentarzu */
