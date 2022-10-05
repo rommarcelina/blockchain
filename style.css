@@ -1,3 +1,8 @@
+/*@import "./assets/styles/resets";*/
 div {
-  color: red;
+  color: red;}
+a {
+  color: green;
+  text-decoration: none;
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
