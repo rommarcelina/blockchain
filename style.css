@@ -1,8 +1,44 @@
+@charset "UTF-8";
 /*@import "./assets/styles/resets";*/
-div {
-  color: red;}
-a {
-  color: green;
-  text-decoration: none;
-  font-size: 30px;
-}/*# sourceMappingURL=style.css.map */
+/* Header */
+.container {
+  background-color: black;
+}
+.container header {
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: grey;
+  width: 100%;
+}
+.container header h1 {
+  font-weight: 400;
+  width: 33%;
+}
+.container header .greenDot {
+  color: #00E3A5;
+}
+.container header .navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 33%;
+}
+.container header .navBar .aboutUs {
+  font-size: 18px;
+}
+.container header .navBar div {
+  padding: 0 20px;
+}
+.container header .navButton {
+  width: 33%;
+}
+
+/* Na zadanie domowe: zobaczyć elementy wpólne jakie są na stronie (często powtarzające się) - wypisz je w komentarzu
+kolor 00E3A5
+czcionka gilroy
+wielkosc czcionki w nagłowkach 36px
+ *//*# sourceMappingURL=style.css.map */
