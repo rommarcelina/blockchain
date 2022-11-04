@@ -35,10 +35,8 @@
 }
 .container header .navButton {
   width: 33%;
+  border-radius: 2px;
+  border-color: #00E3A5;
 }
 
-/* Na zadanie domowe: zobaczyć elementy wpólne jakie są na stronie (często powtarzające się) - wypisz je w komentarzu
-kolor 00E3A5
-czcionka gilroy
-wielkosc czcionki w nagłowkach 36px
- *//*# sourceMappingURL=style.css.map */
+/* skonczyliśmy na ustawianiu bordera w .navButton*//*# sourceMappingURL=style.css.map */

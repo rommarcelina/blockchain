@@ -48,10 +48,13 @@ $h2Size: 36px;
         
         .navButton{
             width: 33%;
+            border-radius: 2px;
+            border-color: $colorGreen;
+
         }
 
         
     }
 }
 
-/* skonczyliśmy na ustawianiu szerokości .navbar*/
+/* skonczyliśmy na ustawianiu bordera w .navButton* do piątku wypchnąć commita/
