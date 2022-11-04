@@ -2,41 +2,57 @@
 /*@import "./assets/styles/resets";*/
 /* Header */
 .container {
-  background-color: black;
+  background-image: url("./assets/img/bg.png");
 }
-.container header {
+
+header {
   display: flex;
   flex-direction: row;
   font-family: "Open Sans";
   justify-content: space-between;
   align-items: center;
   color: white;
-  background-color: grey;
+  background-color: #09251E;
   width: 100%;
+  border-radius: 100px;
 }
-.container header h1 {
+header h1 {
+  text-align: center;
   font-weight: 400;
-  width: 33%;
+  width: 20%;
 }
-.container header .greenDot {
+header .greenDot {
   color: #00E3A5;
 }
-.container header .navBar {
+header .navBar {
+  width: 58%;
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  align-items: center;
-  width: 33%;
-}
-.container header .navBar .aboutUs {
   font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 }
-.container header .navBar div {
+header .navBar .aboutUs {
+  white-space: nowrap;
+}
+header .navBar div {
   padding: 0 20px;
 }
-.container header .navButton {
-  width: 33%;
+header .navBarLastElement {
+  width: 22%;
+}
+header .navBarLastElement .navButton {
   border-radius: 2px;
   border-color: #00E3A5;
+  padding: 18px 42px;
+  border-radius: 4px;
+  background-color: #09251E;
+  color: white;
+  letter-spacing: 0.05em;
+  line-height: 22px;
+  font-weight: 800;
 }
 
-/* skonczyliśmy na ustawianiu bordera w .navButton*//*# sourceMappingURL=style.css.map */
+/* skończyliśmy na dodaniu tła do nawigacji*//*# sourceMappingURL=style.css.map */

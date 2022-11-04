@@ -12,7 +12,10 @@ $h2Size: 36px;
 
 /* Header */
 .container {
-    background-color: $colorBlack;
+    background-image: url("./assets/img/bg.png");
+
+    
+    }
 
     header {
         display: flex;
@@ -21,40 +24,59 @@ $h2Size: 36px;
         justify-content: space-between;
         align-items: center;
         color: $colorWhite;
-        background-color: grey;
+        background-color: #09251E;
         width: 100%;
+        border-radius: 100px;
 
         h1 {
+            text-align: center;
             font-weight: 400;
-            width: 33%;
+            width: 20%;
         }
 
         .greenDot {
             color: #00E3A5;
         }
-        .navBar{
-           display: flex;
-           flex-direction: row;
-           align-items: center;
-           width: 33%;
-            
-           .aboutUs {
-                font-size: 18px;
+
+        .navBar {
+            width: 58%;
+            display: flex;
+            justify-content: center;        
+            flex-direction: row;
+
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+            white-space: nowrap;
+
+
+            .aboutUs {
+                white-space: nowrap;
             }
+
             div {
                 padding: 0 20px;
             }
         }
-        
-        .navButton{
-            width: 33%;
-            border-radius: 2px;
-            border-color: $colorGreen;
 
+        .navBarLastElement{
+           width: 22%; 
+            
+            .navButton {
+                border-radius: 2px;
+                border-color: $colorGreen;
+                padding: 18px 42px;
+                border-radius: 4px;
+                background-color: #09251E;
+                color: $colorWhite;
+                letter-spacing: 0.05em;
+                line-height: 22px;
+                font-weight: 800;
+            }
+    
         }
-
+    
         
-    }
-}
 
-/* skonczyliśmy na ustawianiu bordera w .navButton* do piątku wypchnąć commita/
+    }
+/* skończyliśmy na dodaniu tła do nawigacji*/
