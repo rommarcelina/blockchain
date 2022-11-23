@@ -1,14 +1,14 @@
 /*@import "./assets/styles/resets";*/
-/* Header */
 .container {
   background-image: url("./assets/img/bg.png");
   padding-top: 30px;
+  font-family: "Open Sans";
+  /* Header */
+  /* Section procesor */
 }
-
-header {
+.container header {
   display: flex;
   flex-direction: row;
-  font-family: "Open Sans";
   justify-content: space-between;
   align-items: center;
   color: white;
@@ -17,15 +17,15 @@ header {
   border-radius: 100px;
   margin: 0 5%;
 }
-header h1 {
+.container header h1 {
   text-align: center;
   font-weight: 400;
   width: 20%;
 }
-header .greenDot {
+.container header .greenDot {
   color: #00E3A5;
 }
-header .navBar {
+.container header .navBar {
   width: 58%;
   display: flex;
   justify-content: center;
@@ -35,16 +35,16 @@ header .navBar {
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
-header .navBar .aboutUs {
+.container header .navBar .aboutUs {
   white-space: nowrap;
 }
-header .navBar div {
+.container header .navBar div {
   padding: 0 20px;
 }
-header .navBarLastElement {
+.container header .navBarLastElement {
   width: 22%;
 }
-header .navBarLastElement .navButton {
+.container header .navBarLastElement .navButton {
   border-radius: 2px;
   border-color: #00E3A5;
   padding: 18px 42px;
@@ -54,4 +54,9 @@ header .navBarLastElement .navButton {
   letter-spacing: 0.05em;
   line-height: 22px;
   font-weight: 800;
-}/*# sourceMappingURL=style.css.map */
+}
+.container .procesor {
+  display: flex;
+  flex-direction: row;
+}
+/* trzeba skonczyc lewa strone section + git commit*//*# sourceMappingURL=style.css.map */

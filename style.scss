@@ -5,23 +5,20 @@ $colorBlack: black;
 $colorGreen: #00E3A5;
 $pSize: 18px;
 $pcolor: #80AB9E;
-$h2Size: 36px;
+$h2Size: 52px;
+$h3Size: 36px;
 
 
-
-
-/* Header */
 .container {
     background-image: url("./assets/img/bg.png");
     padding-top: 30px;
+    font-family: "Open Sans";
 
-    
-    }
-
+    /* Header */
     header {
         display: flex;
         flex-direction: row;
-        font-family: "Open Sans";
+        
         justify-content: space-between;
         align-items: center;
         color: $colorWhite;
@@ -75,9 +72,17 @@ $h2Size: 36px;
                 line-height: 22px;
                 font-weight: 800;
             }
-    
         }
-    
-        
-
     }
+    /* Section procesor */
+    .procesor{
+        display: flex;
+        flex-direction: row;
+        
+        .procesorLeftSide{
+
+        }
+    }
+}
+
+/* trzeba skonczyc lewa strone section + git commit*/
