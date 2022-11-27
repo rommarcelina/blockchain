@@ -3,29 +3,53 @@
 $colorWhite: white;
 $colorBlack: black;
 $colorGreen: #00E3A5;
-$pSize: 18px;
 $pcolor: #80AB9E;
+$h2color: #F5FBF2;
+
+$pSize: 18px;
 $h2Size: 52px;
 $h3Size: 36px;
 
+.btn {
+    padding: 24px 48px;
+    border-radius: 5px;
+    border: 1px solid $colorGreen;
+    font-weight: 800;
+    font-size: $pSize;
+    line-height: 22px;
+    letter-spacing: 00.05em;
+    color: $colorWhite;
+    text-align: center;
+}
 
 .container {
-    background-image: url("./assets/img/bg.png");
     padding-top: 30px;
     font-family: "Open Sans";
+    width: 100%;
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    
+    .headerAndProcesor {
+        background-image: url("./assets/img/bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
 
     /* Header */
     header {
         display: flex;
         flex-direction: row;
-        
+
         justify-content: space-between;
         align-items: center;
         color: $colorWhite;
         background-color: #09251E;
         width: 90%;
         border-radius: 100px;
-        margin:0 5%;
+        margin: 0 5%;
 
         h1 {
             text-align: center;
@@ -40,7 +64,7 @@ $h3Size: 36px;
         .navBar {
             width: 58%;
             display: flex;
-            justify-content: center;        
+            justify-content: center;
             flex-direction: row;
 
             font-size: 18px;
@@ -58,9 +82,9 @@ $h3Size: 36px;
             }
         }
 
-        .navBarLastElement{
-           width: 22%; 
-            
+        .navBarLastElement {
+            width: 22%;
+
             .navButton {
                 border-radius: 2px;
                 border-color: $colorGreen;
@@ -74,15 +98,57 @@ $h3Size: 36px;
             }
         }
     }
+
     /* Section procesor */
-    .procesor{
+    .procesor {
         display: flex;
         flex-direction: row;
-        
-        .procesorLeftSide{
 
+        .procesorLeftSide {
+            margin-left: 132px;
+            
+
+            .firstLineProcesor {
+                font-size: 28px;
+                font-weight: 400;
+                color: $pcolor;
+                line-height: 36.4px;
+                margin-bottom: 16px;
+            }
+
+            h2 {
+                font-size: $h2Size;
+                font-weight: 700;
+                color: $h2color;
+                line-height: 64.1px;
+                margin-bottom: 70px;
+            }
+
+            a {
+                background-color: $colorGreen;
+                color: #181818;
+                text-decoration: none;
+                position: relative;
+                display: inline-block;
+
+                &::after {
+                    content: "";
+                    width: 220px;
+                    height: 1px;
+                    position: absolute;
+                    left: 50%;
+                    top: 100%;
+                    transform: translate(-50%, -100%);
+                    box-shadow: 0px 3px 16px 3px $colorGreen;
+                }
+            }
+        }
+
+        .procesorRightSide {
+            img {
+                width: 100%;
+                display: block;
+            }
         }
     }
 }
-
-/* trzeba skonczyc lewa strone section + git commit*/
