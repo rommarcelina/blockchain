@@ -9,6 +9,7 @@ $h2color: #F5FBF2;
 $pSize: 18px;
 $h2Size: 52px;
 $h3Size: 36px;
+$h4Size: 24px;
 
 .btn {
     padding: 24px 48px;
@@ -29,13 +30,15 @@ $h3Size: 36px;
     background-color: #0d0d0d;
     display: flex;
     flex-direction: column;
-    
+
+
+
     .headerAndProcesor {
         background-image: url("./assets/img/bg.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        
+
     }
 
     /* Header */
@@ -106,7 +109,7 @@ $h3Size: 36px;
 
         .procesorLeftSide {
             margin-left: 132px;
-            
+
 
             .firstLineProcesor {
                 font-size: 28px;
@@ -149,6 +152,32 @@ $h3Size: 36px;
                 width: 100%;
                 display: block;
             }
+        }
+    }
+
+    /* Section map */
+    .map {
+        background-image: url("/blockchain/assets/img/mapa.png");
+        color: $colorWhite;
+        text-align: center;
+
+    }
+
+    .threeDatas {
+        display: flex;
+        flex-direction: column;
+
+        .first {
+
+            color: $colorWhite;
+        }
+
+        .second {
+            color: $colorWhite;
+        }
+
+        .third {
+            color: $colorWhite;
         }
     }
 }

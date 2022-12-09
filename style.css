@@ -20,6 +20,7 @@
   flex-direction: column;
   /* Header */
   /* Section procesor */
+  /* Section map */
 }
 .container .headerAndProcesor {
   background-image: url("./assets/img/bg.png");
@@ -117,4 +118,22 @@
 .container .procesor .procesorRightSide img {
   width: 100%;
   display: block;
+}
+.container .map {
+  background-image: url("/blockchain/assets/img/mapa.png");
+  color: white;
+  text-align: center;
+}
+.container .threeDatas {
+  display: flex;
+  flex-direction: column;
+}
+.container .threeDatas .first {
+  color: white;
+}
+.container .threeDatas .second {
+  color: white;
+}
+.container .threeDatas .third {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
