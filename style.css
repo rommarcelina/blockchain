@@ -1,14 +1,49 @@
 /*@import "./assets/styles/resets";*/
-/* Header */
-.container {
-  background-image: url("./assets/img/bg.png");
-  padding-top: 30px;
+.btn {
+  padding: 24px 48px;
+  border-radius: 5px;
+  border: 1px solid #00E3A5;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: white;
+  text-align: center;
 }
 
-header {
+/* Container class */
+.container {
+  padding-top: 30px;
+  font-family: "Open Sans";
+  width: 100%;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  /* Header */
+  /* Section procesor */
+  /* Section map */
+}
+.container h2 {
+  font-size: 52px;
+}
+.container h3 {
+  font-size: 36px;
+}
+.container h4 {
+  font-size: 24px;
+}
+.container p {
+  font-size: 18px;
+}
+.container .headerAndProcesor {
+  background-image: url("./assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container header {
   display: flex;
   flex-direction: row;
-  font-family: "Open Sans";
   justify-content: space-between;
   align-items: center;
   color: white;
@@ -17,15 +52,15 @@ header {
   border-radius: 100px;
   margin: 0 5%;
 }
-header h1 {
+.container header h1 {
   text-align: center;
   font-weight: 400;
   width: 20%;
 }
-header .greenDot {
+.container header .greenDot {
   color: #00E3A5;
 }
-header .navBar {
+.container header .navBar {
   width: 58%;
   display: flex;
   justify-content: center;
@@ -35,16 +70,16 @@ header .navBar {
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
-header .navBar .aboutUs {
+.container header .navBar .aboutUs {
   white-space: nowrap;
 }
-header .navBar div {
+.container header .navBar div {
   padding: 0 20px;
 }
-header .navBarLastElement {
+.container header .navBarLastElement {
   width: 22%;
 }
-header .navBarLastElement .navButton {
+.container header .navBarLastElement .navButton {
   border-radius: 2px;
   border-color: #00E3A5;
   padding: 18px 42px;
@@ -54,4 +89,82 @@ header .navBarLastElement .navButton {
   letter-spacing: 0.05em;
   line-height: 22px;
   font-weight: 800;
+}
+.container .procesor {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 129.4px;
+}
+.container .procesor .procesorLeftSide {
+  margin-left: 132px;
+}
+.container .procesor .procesorLeftSide .firstLineProcesor {
+  font-size: 28px;
+  font-weight: 400;
+  color: #80AB9E;
+  line-height: 36.4px;
+  margin-bottom: 16px;
+}
+.container .procesor .procesorLeftSide h2 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #F5FBF2;
+  line-height: 64.1px;
+  margin-bottom: 70px;
+}
+.container .procesor .procesorLeftSide a {
+  background-color: #00E3A5;
+  color: #181818;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.container .procesor .procesorLeftSide a::after {
+  content: "";
+  width: 220px;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -100%);
+  box-shadow: 0px 3px 16px 3px #00E3A5;
+}
+.container .procesor .procesorRightSide img {
+  width: 100%;
+  display: block;
+}
+.container .map {
+  color: white;
+  text-align: center;
+}
+.container .map h4 {
+  color: #80AB9E;
+  line-height: 36px;
+}
+.container .map h3 {
+  color: #F5FBF2;
+  line-height: 54px;
+  font-weight: 700;
+}
+.container .map .threeDatas {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .map .threeDatas h3 {
+  color: #00E3A5;
+  line-height: 54px;
+  font-weight: 700;
+}
+.container .map .threeDatas p {
+  color: #9E9E9E;
+  line-height: 27px;
+}
+.container .bottomImage {
+  width: 90%;
+  margin: 0 auto;
+}
+.container .bottomImage img {
+  width: 100%;
+  height: 754px;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
