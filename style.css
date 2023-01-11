@@ -22,6 +22,7 @@
   /* Header */
   /* Section procesor */
   /* Section map */
+  /* Figure logo */
 }
 .container h2 {
   font-size: 52px;
@@ -166,5 +167,25 @@
 .container .bottomImage img {
   width: 100%;
   height: 754px;
+  display: block;
+}
+.container figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("./assets/img/bg-figure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 105px 101px 121px 101px;
+  border-radius: 130px;
+  opacity: 0.5;
+}
+.container figure a {
+  display: block;
+}
+.container figure img {
+  width: 100%;
   display: block;
 }/*# sourceMappingURL=style.css.map */
