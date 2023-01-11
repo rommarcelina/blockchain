@@ -214,4 +214,26 @@ $h4Size: 24px;
             display: block;
         }
     }
+    /* Figure logo */
+    figure{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url("./assets/img/bg-figure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 105px 101px 121px 101px;
+        border-radius: 130px;
+        opacity: 0.5;
+
+        a{
+            display: block;
+        }
+        img{
+            width: 100%;
+            display: block;
+        }
+    }
 }
