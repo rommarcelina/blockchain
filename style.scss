@@ -25,7 +25,6 @@ $h4Size: 24px;
 
 /* Container class */
 .container {
-    padding-top: 30px;
     font-family: "Open Sans";
     width: 100%;
     background-color: #0d0d0d;
@@ -64,10 +63,10 @@ $h4Size: 24px;
         justify-content: space-between;
         align-items: center;
         color: $colorWhite;
-        background-color: #09251E;
+        background-image: url("./assets/img/bg-header.png");
         width: 90%;
         border-radius: 100px;
-        margin: 0 5%;
+        margin: 30px 5% 0 5%;
 
         h1 {
             text-align: center;
@@ -90,13 +89,13 @@ $h4Size: 24px;
             letter-spacing: 0.02em;
             white-space: nowrap;
 
-
-            .aboutUs {
+            a {
                 white-space: nowrap;
-            }
-
-            div {
                 padding: 0 20px;
+                text-decoration: none;
+            }
+            a:link, a:visited{
+                color: $colorWhite;
             }
         }
 
